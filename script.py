@@ -31,4 +31,4 @@ def calc_profitability():
         overall_profit += each_currency_profit
         print(item, "%.2f" % each_currency_profit, '€')
 
-    print('\nTOTAL', "%.2f" % overall_profit, '€\n')
+    print('> TOTAL', "%.2f" % overall_profit, '€\n')
